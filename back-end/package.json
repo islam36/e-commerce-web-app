@@ -1,0 +1,31 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back-end for e-commerce-web-app project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "back-end",
+    "node.js",
+    "api",
+    "e-commerce",
+    "mongodb",
+    "mongoose",
+    "express js",
+    "passport js"
+  ],
+  "author": "Mohamed Islam Boumendjel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.12",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
